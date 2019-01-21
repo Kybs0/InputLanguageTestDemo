@@ -26,10 +26,13 @@ namespace InputLanguageTestDemo
             InitializeComponent();
             CurrentLanguage = GetCultureType();
 
-            //2.InputMethod方案
+            //2.PreferredImeConversionMode方案
             //通过InputMethod.PreferredImeConversionMode附加属性，设置输入框的输入法输入转换模式,即限定输入字符类型
             //InputMethod.SetPreferredImeConversionMode(InputTestTextBox0, ImeConversionModeValues.Alphanumeric);
             //InputMethod.SetPreferredImeConversionMode(InputTestTextBox1, ImeConversionModeValues.Native);
+            //3.IsInputMethodEnabled方案
+            InputMethod.SetIsInputMethodEnabled(InputTestTextBox0, false);
+            InputMethod.SetIsInputMethodEnabled(InputTestTextBox1, true);
         }
 
         #region 1.InputLanguage方案
