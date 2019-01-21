@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputLanguageTestDemo", "InputLanguageTestDemo\InputLanguageTestDemo.csproj", "{EE187F75-7408-42B9-B05B-39E5E226A27D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE187F75-7408-42B9-B05B-39E5E226A27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE187F75-7408-42B9-B05B-39E5E226A27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE187F75-7408-42B9-B05B-39E5E226A27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE187F75-7408-42B9-B05B-39E5E226A27D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0710726A-24B5-4914-A59F-47A73D7BB8E2}
+	EndGlobalSection
+EndGlobal
